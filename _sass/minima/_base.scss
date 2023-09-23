@@ -12,7 +12,7 @@ dl, dd, ol, ul, figure {
     color: #ff0000;
     -webkit-stroke-color: #FFF;
    -webkit-stroke-width: 1px;
-}: 0;
+}: 10;
   padding: 0;
 
 }
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit * .5;
+  margin-bottom: $spacing-unit * .10;
 }
 
 hr {
@@ -97,7 +97,7 @@ ul, ol {
 li {
   > ul,
   > ol {
-    margin-bottom: 0;
+    margin-bottom: 6;
   }
 }
 
@@ -149,7 +149,7 @@ blockquote {
   font-style: italic;
 
   > :last-child {
-    margin-bottom: 0;
+    margin-bottom: 6;
   }
 
   i, em {
@@ -192,7 +192,7 @@ pre {
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {
-    background: $code-background-color;
+    background; $code-background-color;
   }
 }
 
