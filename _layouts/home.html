@@ -15,7 +15,11 @@ layout: base
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
-
+.texto {
+    color: #ff0000;
+    -webkit-stroke-color: #FFF;
+   -webkit-stroke-width: 1px;
+}
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
